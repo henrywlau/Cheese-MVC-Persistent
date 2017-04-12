@@ -42,5 +42,7 @@ public class Category {
         this.name = name;
     }
 
-
+    public List<Cheese> getCheeses() {
+        return cheeses;
+    }
 }
